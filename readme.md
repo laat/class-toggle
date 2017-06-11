@@ -1,7 +1,7 @@
 # class-toggle
 [![Build Status](https://travis-ci.org/laat/class-toggle.svg?branch=master)](https://travis-ci.org/laatclass-toggle)
 
-> Remove children from DOM-node
+> Toggle class on HTMLElement
 
 ## Motivation ([YouMightNotNeedJQuery](http://youmightnotneedjquery.com/#toggle_class))
 
