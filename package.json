@@ -1,6 +1,6 @@
 {
   "name": "class-toggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toggle class on HTMLElement",
   "main": "lib/index.js",
   "repository": "laat/class-toggle",
