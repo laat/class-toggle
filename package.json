@@ -1,9 +1,9 @@
 {
-  "name": "toggle-class",
-  "version": "1.0.0",
+  "name": "class-toggle",
+  "version": "0.0.0",
   "description": "Toggle class on HTMLElement",
   "main": "lib/index.js",
-  "repository": "laat/toggle-class",
+  "repository": "laat/class-toggle",
   "author": "Sigurd Fosseng <sigurd@fosseng.net>",
   "license": "MIT",
   "scripts": {

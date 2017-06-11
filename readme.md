@@ -1,5 +1,5 @@
-# toggle-class
-[![Build Status](https://travis-ci.org/laat/toggle-class.svg?branch=master)](https://travis-ci.org/laat/toggle-class)
+# class-toggle
+[![Build Status](https://travis-ci.org/laat/class-toggle.svg?branch=master)](https://travis-ci.org/laatclass-toggle)
 
 > Remove children from DOM-node
 
@@ -27,22 +27,22 @@ if (el.classList) {
 }
 ```
 
-toggle-class:
+class-toggle:
 ```javascript
-const toggleClass = require('toggle-class');
+const toggleClass = require('class-toggle');
 toggleClass(el, className);
 ```
 
 ## Install
 
 ```
-$ npm install --save toggle-class
+$ npm install --save class-toggle
 ```
 
 ## Usage
 
 ```javascript
-const toggleClass = require('toggle-class');
+const toggleClass = require('class-toggle');
 
 const div = document.createElement('div')
 div.outerHTML
