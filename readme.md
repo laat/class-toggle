@@ -33,6 +33,13 @@ const toggleClass = require('class-toggle');
 toggleClass(el, className);
 ```
 
+native / [polyfill](https://github.com/eligrey/classList.js)
+```javascript
+el.classList.toggle(className);
+```
+
+Protip: **use native / polyfill if possible**
+
 ## Install
 
 ```
