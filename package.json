@@ -2,36 +2,15 @@
   "name": "class-toggle",
   "version": "1.0.2",
   "description": "Toggle class on HTMLElement",
-  "main": "lib/index.js",
   "repository": "laat/class-toggle",
-  "author": "Sigurd Fosseng <sigurd@fosseng.net>",
   "license": "MIT",
+  "author": "Sigurd Fosseng <sigurd@fosseng.net>",
+  "main": "index.js",
   "scripts": {
-    "build:js": "babel src -d lib",
-    "build:flow": "flow-copy-source src lib",
-    "build": "npm-run-all --parallel build:*",
-    "test": "readme-assert --require './test-setup.js'",
-    "flow": "flow check",
-    "prepare": "npm run build",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "test": "readme-assert --auto --require './test-setup.js'"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-preset-env": "^1.5.2",
-    "flow-bin": "^0.47.0",
-    "flow-copy-source": "^1.1.0",
-    "husky": "^0.13.4",
-    "jsdom": "^11.0.0",
-    "lint-staged": "^3.6.1",
-    "npm-run-all": "^4.0.2",
-    "prettier": "^1.4.4",
-    "readme-assert": "^5.0.5"
+    "jsdom": "^15.1.1",
+    "readme-assert": "^6.0.3"
   }
 }
