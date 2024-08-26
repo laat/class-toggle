@@ -10,7 +10,7 @@
     "test": "readme-assert --auto --require './test-setup.js'"
   },
   "devDependencies": {
-    "jsdom": "^24.0.0",
+    "jsdom": "^25.0.0",
     "readme-assert": "^6.0.3"
   }
 }
